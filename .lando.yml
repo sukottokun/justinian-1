@@ -1,0 +1,6 @@
+name: justinian-1
+recipe: pantheon
+config:
+  framework: drupal8
+  site: justinian-1
+  id: 25535eeb-2840-4eed-8b3e-1497136924d5
