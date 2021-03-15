@@ -6,3 +6,9 @@ workflows:
       - pantheon/push
 orbs:
   pantheon: pantheon-systems/pantheon@0.5.1
+  ci-tools: kanopi/ci-tools@1.4.10
+  workflows:
+    tests:
+      jobs:
+        - ci-tools/lighthouse:
+            url: 'http://prolificsys.com'
