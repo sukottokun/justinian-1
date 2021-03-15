@@ -7,10 +7,8 @@ workflows:
 orbs:
   pantheon: pantheon-systems/pantheon@0.5.1
   ci-tools: kanopi/ci-tools@1.4.10
-  version: 2.1
   workflows:
     tests:
       jobs:
         - ci-tools/lighthouse:
-            url: 'http://www.prolificsys.com'
-    version: 2.1
+            url: 'http://prolificsys.com'
