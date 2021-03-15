@@ -7,7 +7,7 @@ workflows:
       - ci-tools/lighthouse:
           requires:
             - pantheon/push
-          url: 'http://prolificsys.com'
+          url: 'https://dev-justinian-1.pantheonsite.io/'
 
 orbs:
   pantheon: pantheon-systems/pantheon@0.5.1
