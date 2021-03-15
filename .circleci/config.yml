@@ -13,3 +13,4 @@ orbs:
       jobs:
         - ci-tools/lighthouse:
             url: 'http://www.prolificsys.com'
+    version: 2.1
