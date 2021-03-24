@@ -3,8 +3,7 @@ workflows:
   version: 2
   just_push:
       jobs:
-      - jamesmosier/lighthouse-stats
-      - ci-tools/lighthouse:
+      - jamesmosier/lighthouse-stats:
           requires:
             - pantheon/push
           url: 'https://dev-justinian-1.pantheonsite.io/'
