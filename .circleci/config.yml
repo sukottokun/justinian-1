@@ -3,11 +3,12 @@ workflows:
   version: 2
   just_push:
       jobs:
+      - pantheon/push
       - lighthouse-stats/measure:
           requires:
             - pantheon/push
           url: 'https://dev-justinian-1.pantheonsite.io/'
-          folder_prefix: 'scott'
+          folder_prefix: 'test'
 orbs:
   pantheon: pantheon-systems/pantheon@0.5.1
   lighthouse-stats: jamesmosier/lighthouse-stats@0.1.0
