@@ -3,7 +3,11 @@ workflows:
   version: 2
   just_push:
       jobs:
-      - pantheon/push
+      - hold: # <<< A job that will require manual approval in the CircleCI web application.
+            type: approval # <<< This key-value pair will set your workflow to a status of "On Hold"
+      - pantheon/push:
+          requires:
+            - hold
 
 orbs:
   pantheon: pantheon-systems/pantheon@0.5.1
