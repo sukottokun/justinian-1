@@ -8,7 +8,6 @@ workflows:
           requires:
             - pantheon/push
           url: 'https://dev-justinian-1.pantheonsite.io/'
-
 orbs:
   pantheon: pantheon-systems/pantheon@0.5.1
   ci-tools: kanopi/ci-tools@1.4.10
