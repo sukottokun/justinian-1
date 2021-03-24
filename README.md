@@ -1,4 +1,4 @@
-# Official Site of Emporer Justinian I
+# Official Site of Emperor Justinian I
 
 
 Justinian I, Latin in full Flavius Justinianus, original name Petrus Sabbatius, (born 483, Tauresium, Dardania [probably near modern Skopje, North Macedonia]—died November 14, 565, Constantinople [now Istanbul, Turkey]), Byzantine emperor (527–565), noted for his administrative reorganization of the imperial government and for his sponsorship of a codification of laws known as the Code of Justinian (Codex Justinianus; 534).
